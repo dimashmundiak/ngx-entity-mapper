@@ -1,9 +1,10 @@
-import { Injectable } from '@angular/core';
+import { Injectable, Inject, Type, Optional } from '@angular/core';
+import { MAPPING_ITEM } from './ngx-entity-mapper.tokens';
+import { Mapping } from './mapping';
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class NgxEntityMapperService {
-
-  constructor() { }
+    constructor(
+        @Inject(MAPPING_ITEM) mappings: Array<Mapping<any, any>>,
+    ) { }
 }

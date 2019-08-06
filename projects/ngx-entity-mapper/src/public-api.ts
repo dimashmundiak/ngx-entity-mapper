@@ -3,5 +3,4 @@
  */
 
 export * from './lib/ngx-entity-mapper.service';
-export * from './lib/ngx-entity-mapper.component';
-export * from './lib/ngx-entity-mapper.module';
+export * from './lib/ngx-entity-mapper';

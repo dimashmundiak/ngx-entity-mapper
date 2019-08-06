@@ -1,12 +1,5 @@
 import { NgModule } from '@angular/core';
-import { NgxEntityMapperComponent } from './ngx-entity-mapper.component';
+import { CommonModule } from '@angular/common';
 
-
-
-@NgModule({
-  declarations: [NgxEntityMapperComponent],
-  imports: [
-  ],
-  exports: [NgxEntityMapperComponent]
-})
-export class NgxEntityMapperModule { }
+@NgModule({})
+export class EntityMapperModule { }
